@@ -1,0 +1,576 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    color: rgb(53, 57, 61);
+}
+
+.logo {
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(53, 57, 61);
+}
+
+.left-header-options li a {
+    margin-right: 0.938rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.left-header-options li  a {
+    transition: opacity, 0.3s; 
+    transition: font-size, 0.3s;
+    transition: text-shadow, 0.3s; 
+}
+
+.left-header-options a:hover {
+    opacity: 0.8;
+    text-shadow: 1px 2px 2px rgba(53, 57, 61, 0.7);
+    
+}
+
+
+.header-container {
+    width: 100%;
+}
+
+.header-container ul {
+    width: 100%;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    background-color: rgb(235, 234, 231);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: -0.625rem;
+    padding-left: 31.25rem;
+    margin-top: -0.1rem;
+}
+
+
+.header-container ul li {display: inline;}
+
+.navbar-container {
+    display: flex;
+    padding: 0.2em 1em;
+    text-decoration: none;
+    float: right;
+    width: 100%;
+    height: 3.75rem;
+    margin-top: -4.063rem;
+    padding-top: 0rem;
+}
+
+.navbar-container ul {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    padding-top: 0.313rem;
+    padding-bottom: 0.313rem;
+    text-align: center;
+    padding-bottom: 3.125rem;
+    border-bottom: rgb(223, 223, 223) solid 0.063rem;
+    padding-left: 165px;
+}
+
+.navbar-container li {
+    display: flex;
+    justify-content: center;
+    margin-right: 2.188rem;
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color: rgb(53, 57, 61);
+    font-size: 1.125rem;
+}
+
+.navbar-container a {
+    transition: opacity, 0.3s; 
+    transition: font-size, 0.3s;
+    transition: text-shadow, 0.3s; 
+}
+
+.navbar-container a:hover {
+    opacity: 0.8;
+    font-size: 20px;
+    text-shadow: 1px 2px 2px rgba(53, 57, 61, 0.7);
+}
+
+
+
+
+
+.navbar-container ul li {display: inline;}
+
+
+@media (max-width: 1815px) {
+    .logo {
+        visibility: hidden;
+    }
+    .header-container {
+        visibility: hidden;
+    }
+    .navbar-container ul li a {
+        font-size: 16px;
+    }
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.very-header-container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    background-color: #2d3b5f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+    font-size: 16px;
+    transition: background-color 1s ease-in-out;
+}
+
+.very-header-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.very-header.text {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.very-header.text.active {
+    opacity: 1;
+}
+
+
+
+.frontpage-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns text to the left */
+    align-items: center; /* Keeps it centered vertically */
+    position: relative;
+    padding: 20px;
+    margin: 10vh auto 0 10%; /* Adjust margin for responsiveness */
+    max-width: 80%; /* Keeps text from stretching too much */
+}
+
+.subheading-left-text {
+    font-size: 18px;
+}
+
+
+.heading-left-text {
+    letter-spacing: 1px;
+    color: #2d3b5f;
+}
+
+.left-paragraph1 {
+    color: rgb(53, 57, 61);
+}
+
+.left {
+    border-left: 3px solid #2d3b5f;
+    padding-left: 30px;
+}
+
+.left-kitchen-example {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    left: 1150px;
+    bottom: 340px;
+    border: 2px solid #2d3b5f;
+    padding: 10px;
+}
+
+
+
+
+.quote-button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+
+    padding: 15px 20px; /* Combines padding */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Ensures content is centered horizontally */
+    align-items: center; /* Ensures content is centered vertically */
+
+    position: relative;
+    margin: 3vh auto 0 12%; /* Adjust margin for responsiveness */
+    max-width: 80%; /* Prevents excessive stretching */
+
+    background-color: rgb(105, 194, 230);
+    border: none;
+    border-radius: 3px;
+
+    transition: background-color 0.3s, opacity 0.3s, box-shadow 0.3s ease-in-out;
+
+}
+
+.quote-button:hover {
+    opacity: 0.8;
+    box-shadow: 3px 3px 3px rgba(53, 57, 61, 0.7);
+}
+
+.quote-button:active {
+    background-color: rgb(55, 144, 180);
+}
+
+
+.counter-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: -90px;
+    border: rgb(53, 57, 61) solid 2px;  
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(53, 57, 61)
+}
+
+.counter-box {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #2d3b5f;
+}
+
+.icon {
+    background-color: #d58534;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.number {
+    font-size: 40px;
+    color: rgb(184, 184, 184);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.label {
+    font-size: 16px;
+    color: #d58534;;
+    text-transform: uppercase;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+
+.bottom-frontpage {
+    display: flex;
+    margin-top: 100px;
+}
+
+.bottom-left {
+    display: flex;
+    align-items: center; /* Ensures content stays aligned */
+    border-left: #2d3b5f 3px solid;
+    padding-left: 30px;
+
+    margin-left: auto; /* Centers content within parent */
+    margin-right: auto; /* Centers content within parent */
+    max-width: 80%; /* Prevents excessive stretching */
+}
+
+.bottom-left-heading {
+    color: #2d3b5f;
+    font-size: 27px;
+}
+
+.bottom-left-paragraph {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.bottom-middle {
+    display: flex;
+    align-items: center; /* Ensures content stays aligned */
+    border-left: #2d3b5f 3px solid;
+    padding-left: 30px;
+
+    margin-left: auto; /* Centers content within parent */
+    margin-right: auto; /* Centers content within parent */
+    max-width: 80%; /* Prevents excessive stretching */
+}
+
+.bottom-middle-heading {
+    color: #2d3b5f;
+    font-size: 27px;
+}
+
+.bottom-right {
+    display: flex;
+    align-items: center; /* Ensures content stays aligned */
+    border-left: #2d3b5f 3px solid;
+    padding-left: 30px;
+
+    margin-left: auto; /* Centers content within parent */
+    margin-right: auto; /* Centers content within parent */
+    max-width: 80%; /* Prevents excessive stretching */
+}
+
+.bottom-right-heading {
+    color: #2d3b5f;
+}
+
+.bottom-middle-heading {
+    color: #2d3b5f;
+    font-size: 27px;
+}
+
+@media(max-width: 1304px) {
+    .bottom-frontpage {
+        flex-direction: column; /* Stack elements in a column */
+        align-items: center; /* Center-align them */
+    }
+}
+
+
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media (max-width: 1624px) {
+    .left-kitchen-example { 
+            margin-top: 445px;
+            position: relative;
+            left: 175px;
+    }
+}
+
+@media (max-width: 980px) {
+    .left-kitchen-example { 
+            margin-top: 445px;
+            position: relative;
+            left: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer In All Pages || Copy And Paste When Changed */
+
+
+
+
+.footer-container {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(213, 213, 213);
+    background-color: rgb(53, 57, 61);
+    border: #2d3b5f 3px solid;
+    padding: 40px 20px;
+    text-align: center;
+    padding-bottom: 75px;
+}   
+
+.ncelogofooter {
+    position: relative;
+    left: 34px;
+    top: 40px;
+}
+
+
+
+/* Use flexbox to properly align the columns */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Footer Logo */
+.ncelogofooter {
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* Column Structure */
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+
+/* Remove list styling */
+.columns ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Column 1 */
+.column1-text-container {
+    flex: 1;
+    line-height: 45px;
+}
+
+/* Column 2 */
+.column2-text-container {
+    flex: 1;
+    line-height: 35px;
+}
+
+/* Column 3 (Contact Form) */
+.column3-text-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.column3-text-container input,
+.column3-text-container textarea {
+    border: beige solid 1px;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+}
+
+.column3-text-container textarea {
+    resize: vertical;
+}
+
+.column3-text-container button {
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: rgb(101, 146, 230);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s, opacity 0.3s ease-in-out;
+    align-self: flex-start;
+}
+
+.column3-text-container button:hover {
+    opacity: 0.8;
+    background-color: rgb(101, 146, 200);
+}
+
+.column4-text-container {
+    flex: 1;
+}
+
+.ncecopyright {
+    margin: 9vh auto 0 -175%;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 1024px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .columns {
+        flex-direction: column;
+        gap: 30px;
+        align-items: left;
+    }
+
+    .column3-text-container {
+        width: 100%;
+    }
+
+    .column3-text-container input,
+    .column3-text-container textarea {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 1003px) {
+    .ncelogofooter {
+        margin: 8vh auto 0 32%;
+        margin-bottom: 5px;
+    }
+
+    .ncecopyright {
+        margin: 6vh auto 0 0%;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start; /* Align content to the left instead of center */
+        text-align: left; /* Ensure text aligns to the left */
+    }
+
+    .columns {
+        flex-direction: column;
+        gap: 25px;
+        align-items: flex-start; /* Align columns to the left */
+        text-align: left;
+        margin-left: -20px;
+    }
+
+
+    .column3-text-container {
+        width: 100%;
+    }
+
+    .column3-text-container input,
+    .column3-text-container textarea {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 1003px) {
+    .ncelogofooter {
+        margin: 8vh auto 0 -4%; /* Move image to the left */
+        margin-bottom: 5px;
+    }
+}
