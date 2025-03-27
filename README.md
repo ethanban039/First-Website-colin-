@@ -1,1 +1,1 @@
-# First-Website-colin-
+I hereby do NOT grant permission to use this software of code for other reasons. This website is for NCE's Purpose. Nottingham Catering Engineers Ltd.
