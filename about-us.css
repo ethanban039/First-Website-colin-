@@ -451,6 +451,7 @@ body {
 
 .ncecopyright {
     margin: 9vh auto 0 -175%;
+    color: white;
 }
 
 /* Responsive Adjustments */
@@ -528,3 +529,13 @@ body {
 }
 
 
+.registered {
+    margin: -12vh auto 0 21%;
+}
+
+
+@media (max-width: 1003px) {
+    .registered {
+        margin: -9vh auto 0 150%
+    }
+}

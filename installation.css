@@ -434,6 +434,7 @@ body {
 
 .ncecopyright {
     margin: 9vh auto 0 -175%;
+    color: white;
 }
 
 /* Responsive Adjustments */
@@ -507,5 +508,17 @@ body {
     .footer-container img {
         margin: 8vh auto 0 -4%; /* Move image to the left */
         margin-bottom: 5px;
+    }
+}
+
+
+.registered {
+    margin: -12vh auto 0 21%;
+}
+
+
+@media (max-width: 1003px) {
+    .registered {
+        margin: -9vh auto 0 150%
     }
 }
