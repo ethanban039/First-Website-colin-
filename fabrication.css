@@ -361,6 +361,16 @@ body {
     padding: 10px;
 }
 
+@media (max-width: 1624px) {    
+    .bottom-left-image {
+        margin: 13vh auto 0 23%;
+    }
+
+    .bottom-left {
+        margin: 0vh auto 0 10%;
+    }
+}
+
 
 
 
