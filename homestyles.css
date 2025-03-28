@@ -241,7 +241,7 @@ body {
 .counter-section {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 75px;
     margin-top: -90px;
     border: rgb(53, 57, 61) solid 2px;  
     padding-top: 75px;
