@@ -18,7 +18,7 @@ Finished Document Date:
 
 There may be some further touches past the finished document date.
 
-The Spare Parts sector does not exist currently.
+The Spare Parts sector currently does not exist.
 
 
 
@@ -29,4 +29,4 @@ Colin Lowe
 
 
 Nottingham Catering Engineers Ltd.
-All Rights Reserved
+All Rights Reserved.
